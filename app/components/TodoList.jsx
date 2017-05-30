@@ -11,11 +11,12 @@ var TodoList = React.createClass({
         );
       });
     };
+
     return (
       <div>
         {renderTodos()}
       </div>
-    );
+    )
   }
 });
 
